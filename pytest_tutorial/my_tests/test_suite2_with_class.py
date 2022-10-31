@@ -1,6 +1,9 @@
 
+import pytest
 
+pytestmark = [pytest.mark.fe, pytest.mark.slow]
 
+@pytest.mark.smoke
 class TestChecout(object):
 
     def test_checkout_as_guest(self):
