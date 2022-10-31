@@ -2,8 +2,13 @@
 import pytest
 
 pytestmark = [pytest.mark.fe, pytest.mark.slow]
+@pytest.fixture(scope='module')
+def my_setup():
+    print("")
+    print(">>>>>>MY SETUP<<<<<<")
 
-@pytest.mark.smoke
+    return{'id': 20, 'name': 'bruh'}
+@pytest.mark.abc
 class TestChecout(object):
 
     def test_checkout_as_guest(self):
