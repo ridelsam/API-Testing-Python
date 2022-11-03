@@ -1,0 +1,9 @@
+README.md
+setup.py
+ssqaapitest/__init__.py
+ssqaapitest/src/__init__.py
+ssqaapitest/src/tests/__init__.py
+ssqapitest.egg-info/PKG-INFO
+ssqapitest.egg-info/SOURCES.txt
+ssqapitest.egg-info/dependency_links.txt
+ssqapitest.egg-info/top_level.txt
